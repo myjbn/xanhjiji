@@ -1,0 +1,469 @@
+<html>
+    <head>
+        <title>Shopping</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="icon" type="image/icon" href="sources/logo.ico">
+        <link rel="stylesheet" href="themify-icons-font/themify-icons/themify-icons.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <a href="index.html" id="nav_logo"> 
+                <img src="sources/logo.png" width="30px" height="30px">
+            </a>
+            <a href="index.html" class="nav_list" id="nav_home"> HOME </a>
+            <div class="nav_list" id="nav_news">  News
+                <div class="dropdown_content"> 
+                    <a href="upnews.html">  Uplifting News </a>
+                    <a href="disnews.html">  Dismal News </a>
+                </div>
+            </div>
+            <a href="shopping.html" class="nav_list" id="nav_shopping"> Shopping </a>
+            <a href="donate.html" class="nav_list" id="nav_donate"> Donate </a>
+            <a href="about.html" class="nav_list" id="nav_about"> About </a>
+            <div class="nav_list" id="nav_menu">  
+                <a href="upnews.html">  Uplifting News </a>
+                <a href="disnews.html">  Dismal News </a>
+                <a href="shopping.html">  Shopping </a>
+                <a href="donate.html">  Donate </a>
+                <a href="about.html">  About </a>
+            </div>
+            <a href="javascript:void(0);" class="iconmenu" id="icon_menu" onclick="myFunction()">
+                <i class="ti-menu"></i>
+            </a>
+
+            
+            <div id="nav_search">
+                <form class="search d-flex" action=""> 
+                    <input type="text" placeholder="Search.."> 
+                    <button class="nav_list" type ="submit">
+                        <i class="ti-search"></i> 
+                    </button>
+                </form>
+            </div>
+            <a href="login.html" class="nav_list" id="nav_loginicon"> 
+                <i class="ti-user"></i>    
+            </a>
+            <a href="login.html" class="nav_list" id="nav_login"> Log in </a>
+            <a href="signup.html" class="nav_list" id="nav_signup"> Sign up </a>
+
+           
+           
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("nav_menu");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
+        </div>
+        
+        <div class="body">
+            <div class="shoppingpage">
+                <div style="margin-top: 40px; position: absolute; margin-left:80vw;"> <i class="ti-shopping-cart"></i></div>
+                <div class="h1title">
+                    <h1>Shopping</h1>
+                    <hr width="14%">
+                </div>
+                <div class="shoppingitems" style="margin-top: 30px;">
+                    <div class="row row-cols-3 row-cols-md-4 g-4">
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping1.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Protect your hands and the environment with the Kind Collection Oven Mitts from Full Circle Home. Crafted with 100% organic terry cotton and gorgeously colored with plant-based dyes, these mitts will keep your hands safe and your kitchen beautiful. Plus, you can feel good knowing that Full Circle is a Certified B Corp – raising the bar for social and environmental accountability.</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Organic Plant-Dyed Oven Mitt</h5>
+                            <p class="card-text">Price: $7.99</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping2.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Ditch cleaning pods packaged in single-use, plastic containers and make the sustainable switch to Dishwasher Detergent Pods from Dropps! Made with mineral-based, eco-friendly ingredients, this dishwashing detergent pod works hard to help remove grease and residue, fight stains, and leave your dishes sparkling with every wash. They're compatible with all dishwashing machine types and contain no chlorine, artificial colorants or dyes, phosphates, or phthalates. Simple, clean, and convenient – that's Dropps!</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Dishwasher Detergent Pods</h5>
+                            <p class="card-text">Price: $14.99 - $89.94</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping3.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Make bathtime that much more fun with the Bath Beeswax Crayons from Honeysticks! Handmade in New Zealand from responsibly sourced beeswax and soy wax, these crayons use food-grade pigments and contain no petroleum-based ingredients. They come in a reusable metal tin that features drainage holes for post-bath drying and are larger than traditional crayons, making them especially great for tiny hands. These crayons can be used in the bathtub or on tiles, won't stain, and are easy to clean up after use. Plus, they're 100% plastic-free!</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Bath Beeswax Crayons</h5>
+                            <p class="card-text">Price: $23.95</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping4.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Dirty bathroom? Grimey stovetop? Tackle it the non-toxic way with Meliora's Gentle Home Cleaning Soft Scrub! Made with all-natural ingredients like baking soda and coconut oil, this powerful all-purpose scrub easily tackles messes on stainless steel, ceramic and porcelain, and most stovetops. To use, simply sprinkle the soft scrub onto a wet surface, and scrub with a rag or sponge! Plus, Meliora is a member of 1% for the Planet, and pledges to donate at least 2% of all sales towards nonprofits like the Women's Voices for the Earth; an environmental non-profit that gives back to our Earth through numerous charitable programs.</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Home Cleaning Soft Scrub</h5>
+                            <p class="card-text">Price: $9.99</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping5.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Looking for a package-free, natural deodorant that's still a snap to apply? Introducing the Baking Soda Free Zero Waste Deodorant Stick by Meow Meow Tweet! Packaged entirely in a paper tube, this push-up deodorant is ideal for on-the-go odor-control. Its creamy, balm-like texture glides across skin as nourishing organic plant oils pamper and soothe underarms. Aluminum-free and sensitive-skin approved, the powers of magnesium and arrowroot starch absorb excess moisture and keep odors at bay. Choose from sweet Grapefruit or woodsy Cedar Spruce. Made in small batches and always with vegan and organic ingredients, Meow Meow Tweet merges zero-waste packaging with clean and effective skincare!</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Baking Soda Free Zero Waste</h5>
+                            <p class="card-text">Price: $14.00</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping6.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">These durable double-layer copper cloths are gentle on most surfaces and tough on stains, stuck-on food, and rust. The copper scouring pad from Redecker comes in a set of 2, so you can have one for the kitchen and one for polishing rust off silverware or cleaning chrome on your automobile. Made with fine copper threads, these copper cloths are 100% recyclable.</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Copper Scouring Cloth - 2pk</h5>
+                            <p class="card-text">Price: $9.99</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="imgshoppingcontainer">
+                                    <img src="sources/shopping7.jpg" class="card-img-top" alt="...">
+                                    <div class="overlay">
+                                        <div class="describe">Fact: 30-40% of all the groceries you purchase get thrown in the trash, equivalent to around $1,600 wasted per year. Food Huggers saw this, and decided to put a lid on food waste with their unique silicone food huggers. Their Original Food Huggers are specially designed to keep fruits and veggies fresh and moisturized longer, in five stretchable sizes for differing produce sizes. And, like all Food Huggers products, they're 100% BPA free, phthalate free, vegan, and made from FDA food grade silicone. When you've eaten every last bite of your produce, just toss the huggers in the dishwasher for years of use!</div>
+                                    </div>
+                                </div>
+    
+                                <div class="card-body">
+                                <h5 class="card-title">Original Food Huggers - 5 pk</h5>
+                                <p class="card-text">Price: $16.99</p>
+                                <form>
+                                    Amount
+                                    <input type="number" name="quantity" min="1">
+                                  </form> 
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card">
+                                <div class="imgshoppingcontainer">
+                                    <img src="sources/shopping8.jpg" class="card-img-top" alt="...">
+                                    <div class="overlay">
+                                        <div class="describe">The ZWS Essentials Bamboo Toothbrush is completely plant-based: bristles, handle, and box. Made from castor bean oil, organic bamboo, and paper! This toothbrush will keep your pearly whites clean and fresh. 100% organic bamboo and plastic-free, our zero waste Bamboo Toothbrush lasts as long as your old plastic toothbrush.</div>
+                                    </div>
+                                </div>
+    
+                                <div class="card-body">
+                                <h5 class="card-title">Bamboo Toothbrush - Adult</h5>
+                                <p class="card-text">Price: $3.99</p>
+                                <form>
+                                    Amount
+                                    <input type="number" name="quantity" min="1">
+                                  </form> 
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                </div>
+                            </div>
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="shopping_info">
+                    <div id="shoppinginfo_1">
+                        <i class="ti-timer"></i>
+                        <h4> Time Well-Spent</h4>
+                        <p>Everything on our site is vetted through our 5-Pillar Sourcing Methodology, and our Community Experience team is always here to help through chat, call, or email.</p>
+                    </div>   
+                    <div id="shoppinginfo_2">
+                        <i class="ti-truck"></i>
+                        <h4> Free Shipping for $50+</h4>
+                        <p>We want sustainability to be more accessible. That’s why every order over $50 ships free, and all orders always ship carbon-neutral.</p>
+                    </div>   
+                    <div id="shoppinginfo_3">
+                        <i class="ti-medall"></i>
+                        <h4>Best-In-Class Brands</h4>
+                        <p>We've built a community of truly earth-conscious brands, dedicated to offering sustainable, quality products without compromises to our planet.</p>
+                    </div>   
+                    <div id="shoppinginfo_4">
+                        <i class="ti-signal"></i>
+                        <h4> Furthering Your Impact</h4>
+                        <p>Every order you make directly benefits our communities and environment through our Certified B Corp and 1% for the Planet membership.</p>
+                    </div>   
+                </div>
+
+                
+                <div class="shoppingitems">
+                    <div class="row row-cols-2 row-cols-md-4 g-4">
+
+                        
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping9.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">The perfect alternative to plastic dish sponges and plastic bath loofahs. Use our zero waste, sustainably sourced loofah sponge (made from a plant!) to wash dishes, naturally exfoliate your skin, clean sinks, tubs, and so much more! Once wet, they naturally expand making the perfect sponge and scrubber! Loofah sponges are soft enough where they will not scratch your pots, pans, or dishes, but have enough scrubbing power to get all the grime and grease off! Inludes: Single or in a pack of 6. There may be some black seeds/residue left inside of the loofah. They will fall out naturally over time.</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Zero Waste Loofah Sponge </h5>
+                            <p class="card-text">Price: $3.99</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping10.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Tasked with the dirtiest job in the house, why shouldn't your toilet scrubber be sustainable as well as beautiful?  Handmade with eco-friendly, responsibly harvested beech wood and tampico agave fibers, this brush tackles the porcelain throne with durability and style.  Complimented with the beech wood stand, you'll be able to tuck your brush away easily and hands free.  </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Plastic-Free Toilet Brush</h5>
+                            <p class="card-text">Price: $32.99</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping11.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Make your daily routine more sustainable with the Fluoride Free Peppermint Toothpaste from Davids! Made in the USA from 98% USA origin ingredients that are natural, fluoride free, sulfate free, and SLS free, this toothpaste works to whiten teeth, fight plaque, and leave you with fresh breath after every use. It comes in a recyclable metal tube, and is available with an optional reusable metal tube key to ensure you can get all the toothpaste out with ease. Pair it with your favorite bamboo toothbrush and you're ready to go!</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Free Peppermint Toothpaste</h5>
+                            <p class="card-text">Price: $9.95</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping12.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Change the world with every step. Every pair of Conscious Step socks gives back to a nonprofit dedicated to changing our world for the better! This set of Socks that Protect Rainforests Gift Box 3pk donates $1 per pair ($3 total) to Conservation International and their work to preserve forests. Plus, these Fair Trade Certified and Vegan Certified socks are made from a high-quality organic cotton fabric blend, feature a seamless toe closure for a comfortable fit, and a mid-calf length. Make an ordinary purchase, with an extraordinary purpose with Conscious Step!</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Socks that Protect Rainforests</h5>
+                            <p class="card-text">Price: $39.95</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                              </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping13.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">No matter your hair type, whether it's damaged, greasy, dull, colored, or just in need of the perfect shampoo, we have a Shampoo Bar for you! Our salon-quality, all natural formulas gently cleanse while removing oil, sweat, dirt, product buildup, and environmental pollutants from your hair and scalp. Each one of these Zero Waste Shampoo Bars is infused with serious botanical nutrition leaving hair silky-soft and refreshed. For best results, we suggest pairing the Shampoo Bar with our highly moisturizing, smoothing Conditioner Bar. You can extend the life of your bars with a soap dish!</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Shampoo Bar - Zero Waste</h5>
+                            <p class="card-text">Price: $15.99</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                                </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping14.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Trestique is at the forefront of the makeup revolution by creating makeup that is clean, straightforward and multi-tasking while also being 100% refillable and zero waste. Empowering people with products that uncomplicate their beauty routines that respect them and the planet is our business and our mission.</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Highlighter Makeup Stick</h5>
+                            <p class="card-text">Price: $28.00</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                                </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping15.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">Watch out, spots! The Tea Tree Charcoal facial soap by Meow Meow Tweet is a go-to for breakouts and congested skin. Gentle enough for daily use, this face soap bar promotes detoxification with powerful essential oils of tea tree and eucalyptus (known blemish busters!) while activated charcoal absorbs excess oils. Finely ground oats buff away dead skin cells to reveal a clear, glowing complexion! Made in small-batches and always with vegan and organic ingredients, Meow Meow Tweet merges zero-waste packaging with clean and effective skin care!</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Tea Tree Charcoal Facial Soap</h5>
+                            <p class="card-text">Price: $12.00</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                                </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col">
+                        <div class="card">
+                            <div class="imgshoppingcontainer">
+                                <img src="sources/shopping16.jpg" class="card-img-top" alt="...">
+                                <div class="overlay">
+                                    <div class="describe">It's time to ditch the single-use paper towels for this organic, reusable alternative. Every day, over 51,000 trees are cut down to support America's paper towel habit, and it's completely unnecessary! This swap saves trees, precious water resources, and helps save you money. Made with GOTS certified organic cotton, our 1-ply reusable paper towels are perfect for cleaning messes, drying hands, or any time you're in need of a paper towel. Once dirty, simply wash with your normal laundry and reuse for years. Plus, the cotton material naturally clings together, making it super easy to re-roll onto the cardboard paper towel tube.</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                            <h5 class="card-title">Reusable Paper Towels</h5>
+                            <p class="card-text">Price: $24.99</p>
+                            <form>
+                                Amount
+                                <input type="number" name="quantity" min="1">
+                                </form> 
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="nextpage">
+            <i class="ti-arrow-circle-left"></i>
+            <a href="#" id="firstpg">1</a>
+            <a href="#" id="secondpg">2</a>
+            <p>...</p>
+            <a href="#" id="lastpg">10</a>
+            <i class="ti-arrow-circle-right"></i>
+          </div>
+
+
+          <div class="footer">
+            <div class="namefooter">
+                <h4>XANH ORGANIZATION</h4>
+            </div>
+            <div class="footercontact">
+                <p> <i class="ti-mobile"></i>Tel: 0123456789</p>
+                <p> <i class="ti-location-pin"></i>Address: Thuy An - Ba Vi - Ha Noi</p>
+                <p> <i class="ti-email"></i>Email: <a href="mailto:info@xanh.org.vn">info@xanh.org.vn</a></p>
+                <p> <i class="ti-facebook"></i>Facebook: <a href="https://www.facebook.com/nvchiJB/">Xanh Organization</a></p>
+                <p> <i class="ti-instagram"></i>Instagram: <a href="https://www.instagram.com/jbjb2403/">Xanh Organization</a></p>
+            </div>
+            <div class="logofooter">
+                <img src="sources/logo.png" width="140%">
+            </div>
+        </div>
+        
+
+    </body>
+</html>
